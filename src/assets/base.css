@@ -1,0 +1,63 @@
+:root {
+  /* Colours */
+  --primary-color: #065971;
+  --primary-color-dark: #005b76;
+  --secondary-color: #e5e7eb;
+  --tertiary-color: #455456;
+  --light-color: #fff;
+  --text-color-primary: #054c60;
+  --text-color-secondary: #92c7e7;
+  --text-color-tertiary: #bebebe;
+  --text-color: #111827;
+  --hover-color: #e5f1f6;
+  --hover-color-light: #e3f1f4;
+  --hover-color-lightest: #f7fbfc;
+  --divider-color: #edecebab;
+
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+
+  /* Sizes */
+  --size-xs: 12px;
+  --size-sm: 16px;
+  --size-md: 20px;
+  --size-lg: 24px;
+  --size-xl: 32px;
+
+  /* Typography */
+  --font-family: 'Roboto', sans-serif;
+  --font-size-base: 1em;
+  --font-size-lg: 1.125em;
+  --font-size-md: 0.875em;
+  --font-size-sm: 0.75em;
+
+  /* Border radius */
+  --border-radius-sm: 4px;
+  --border-radius-md: 6px;
+  --border-radius-lg: 8px;
+  --border-radius-circle: 50%;
+
+  /* Border Widths */
+  --border-width-sm: 1px;
+  --border-width-md: 2px;
+  --border-width-lg: 3px;
+  --border-width-xl: 4px;
+
+  /* Font weights */
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 500;
+  --font-weight-bold: 600;
+
+  /*Gradient*/
+  --background-gradient: linear-gradient(180deg, var(--text-color-primary), 145px, transparent 0);
+
+  /* Misc */
+  --avatar-size-sm: 30px;
+  --avatar-size-md: 50px;
+  --avatar-size-lg: 100px;
+}
