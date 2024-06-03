@@ -1,0 +1,31 @@
+@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+body {
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: var(--spacing-md);
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+
+.chevron-down {
+  border: solid var(--primary-color);
+  border-width: 0 var(--border-width-md) var(--border-width-md) 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  margin-left: auto;
+  -webkit-transform: rotate(45deg);
+}

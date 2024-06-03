@@ -1,4 +1,8 @@
-# List of things that need to be done next
-
-- [ ] Item 1
-- [ ] Item 2
+- [ ] add click outside directive so dropdowns close when you click away
+- [ ] add a confirmation modal for when you drop account privileges.
+- [ ] add tooltip to information button on customer header
+- [ ] add javascript form validation with error messages
+- [ ] add error states for failed requests
+- [ ] add error pages to avoid the need to rely on nullish coalescing everywhere (would allow me to essentially say: if this exists then use it, if not show an error screen)
+- [ ] hook up permissions to actual data
+- [ ] factor in edge cases in list UI (long names / emails etc)
